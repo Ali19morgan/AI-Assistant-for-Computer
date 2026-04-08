@@ -12,6 +12,7 @@ client = Groq(api_key=GROQ_API_KEY)
 SYSTEM_PROMPT = """
 Give useful and shortly answers,
 Don't forget to add, "sir".
+always tell me mr morgan
 """
 
 chat_history = []
